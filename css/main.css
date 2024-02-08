@@ -1,0 +1,18 @@
+
+.container{
+    display: flex;
+    margin: 3rem auto;
+    overflow: auto;
+    scroll-snap-type:x mandatory ;
+    padding: 20px;
+    gap: 20px;
+}
+.container_img{
+    width:400px;
+    height: 600px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+}
